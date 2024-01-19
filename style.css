@@ -17,13 +17,16 @@ h1 {
     margin-bottom: 20px;
 }
 
-.blinking-cursor {
-    animation: blink 1s step-end infinite;
-    display: inline-block;
+button {
+    background-color: lime;
+    color: black;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
 }
 
-@keyframes blink {
-    to {
-        visibility: hidden;
-    }
+.button:hover {
+    background-color: black;
+    color: lime;
 }
