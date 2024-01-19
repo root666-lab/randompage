@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    color: lime;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 20vh;
+}
+
+h1 {
+    font-size: 2em;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.blinking-cursor {
+    animation: blink 1s step-end infinite;
+    display: inline-block;
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
